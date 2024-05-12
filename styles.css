@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #222;
+    z-index: 1000; /* Ensure it stays on top of other content */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #333;
+}
+
+#content {
+    margin-top: 50px; /* Adjust according to the height of the navbar */
+    padding: 20px;
+    height: 2000px; /* Just for demonstration, replace with your actual content */
+}
